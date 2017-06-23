@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  min-height: 100%;
+  position: static;
+  padding-bottom: 20px;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li img {
+  float: right;
+  display: block;
+}
+
+div#logo {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form input {
+  width: 500px;
+  height: 30px;
+}
+
+form button {
+  margin-top: 15px;
+  width: 200px;
+  height: 35px;
+}
+
+ul.bottomnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #f2f2f2
+}
+
+footer {
+  height: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+ul.bottomnav li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer>ul.bottomnav>li.fRight {
+  float: right;
+}
